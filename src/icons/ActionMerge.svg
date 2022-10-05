@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <g class="Name=ActionMerge">
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M3.5 20.5c3 0 9-3 9-7v-10m9 17c-2.21 0-6.13-1.54-8-4" class="icon-primary-stroke"/>
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m8.5 7.5 4-4 4 4" class="icon-primary-stroke"/>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 21C6 21 12 17.5 12 13.5V5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21C18.79 21 15.87 19.96 14 17.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 7L12 3L16 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
