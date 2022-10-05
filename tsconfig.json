@@ -1,0 +1,13 @@
+{
+  // Used for running scripts with ts-node
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "react"
+  },
+  "include": ["./scripts/**/*.ts"],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

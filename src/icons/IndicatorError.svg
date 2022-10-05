@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=IndicatorError">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m8.5 15.5 8-8m-8 0 8 8m-.27-13H8.77L3.5 7.77v7.46l5.27 5.27h7.46l5.27-5.27V7.77L16.23 2.5Z" class="icon-primary-stroke"/>
+  </g>
+</svg>

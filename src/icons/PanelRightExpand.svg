@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=PanelRightExpand">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M16.5 20.5h4.88v-18H16.5v18Zm-12-9h12m-9-3-3 3 3 3" class="icon-primary-stroke"/>
+    <path stroke="#fff" stroke-dasharray="2 2" stroke-linecap="round" stroke-linejoin="round" d="M16.5 2.5h-14v18h14" class="icon-primary-stroke"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=ConceptNormal">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M3.5 19.5h18m-18-3c5.2 0 4.76-10 9-10 4 0 4 10 9 10" class="icon-primary-stroke"/>
+    <path stroke="#fff" stroke-dasharray="2 2" stroke-linecap="round" stroke-linejoin="round" d="M12.5 19.5v-17" class="icon-primary-stroke"/>
+  </g>
+</svg>

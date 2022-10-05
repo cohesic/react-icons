@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=PanelLeftContract">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M21.38 2.5H2.5v18h18.88v-18Zm-12 9h12" class="icon-primary-stroke"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m12.38 8.5-3 3 3 3" class="icon-primary-stroke"/>
+    <path stroke="#fff" stroke-dasharray="2 2" stroke-linecap="round" d="M7.5 2.5v18" class="icon-primary-stroke"/>
+  </g>
+</svg>

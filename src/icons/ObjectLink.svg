@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=ObjectLink">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M9.4 11.69c-.92-.37-2.01-.19-2.75.56l-3.41 3.41c-.99.99-.99 2.6 0 3.59l1.41 1.41c.99.99 2.6.99 3.59 0l3.41-3.41c.77-.77.94-1.92.51-2.86m2.33-2.18c.92.37 2.01.19 2.75-.56l3.41-3.41c.99-.99.99-2.6 0-3.59l-1.41-1.41c-.99-.99-2.6-.99-3.59 0l-3.41 3.41c-.73.73-.92 1.79-.58 2.7m-3.21 6.1 7.07-7.08" class="icon-primary-stroke"/>
+  </g>
+</svg>

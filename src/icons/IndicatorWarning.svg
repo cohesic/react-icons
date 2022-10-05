@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=IndicatorWarning">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M12.512 16.5v1m0-4v-8m-1.53-3.01-8.11 15.48c-.61 1.17.23 2.56 1.55 2.56h16.22c1.32 0 2.16-1.4 1.55-2.56l-8.11-15.48c-.66-1.25-2.45-1.25-3.1 0Z" class="icon-primary-stroke"/>
+  </g>
+</svg>

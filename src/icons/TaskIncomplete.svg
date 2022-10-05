@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <g class="Name=TaskIncomplete">
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M12 21.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19Z" class="icon-primary-stroke"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M12 19.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15Z" class="icon-primary-stroke"/>
+  </g>
+</svg>
