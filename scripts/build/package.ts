@@ -1,4 +1,4 @@
-import { readFile, writeFile } from './files'
+import { readFile, writeFile } from 'node:fs/promises'
 
 export async function writePackageJson(sourcePath: string, destPath: string) {
   const originalJson = await readFile(sourcePath, { encoding: 'utf8' })

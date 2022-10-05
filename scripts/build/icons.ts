@@ -1,4 +1,4 @@
-import { writeFile } from './files'
+import { writeFile } from 'node:fs/promises'
 import { OptimizedAstIconFile } from './transform'
 
 function tsIcon({ ast, baseName }: OptimizedAstIconFile) {

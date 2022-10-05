@@ -9,7 +9,8 @@
   ],
   "type": "module",
   "scripts": {
-    "build": "rimraf ./dist && ts-node ./scripts/build/main.ts"
+    "build": "rimraf ./dist && ts-node ./scripts/build/main.ts",
+    "figma": "ts-node ./scripts/figma/main.ts"
   },
   "author": {
     "name": "Paul Coyle",

@@ -1,7 +1,9 @@
-import { copyFile, distPath, getIconFiles, projectRootPath } from './files'
+import { exec as cbExec } from 'node:child_process'
+import { copyFile } from 'node:fs/promises'
+import { promisify } from 'node:util'
+import { distPath, projectRootPath } from '../files'
+import { getIconFiles } from './files'
 import { addAstToIconFiles, optimizeIconFiles } from './transform'
-import { exec as cbExec } from 'child_process'
-import { promisify } from 'util'
 import { writeIconsFile } from './icons'
 import { writePackageJson } from './package'
 
