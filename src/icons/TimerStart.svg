@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <g class="Name=TimerStart">
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M13.48 20.93c-.92.37-1.93.57-2.98.57-4.42 0-8-3.58-8-8s3.58-8 8-8c4.08 0 7.45 3.05 7.94 7m-7.94-7v-2m2-2h-4v2h4v-2Zm4 6 1-1m-1-1 2 2m-14 0-1-1m-1 1 2-2" class="icon-primary-stroke"/>
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M10.5 14.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0-2v-4m6 14v-8l6 4-6 4Z" class="icon-primary-stroke"/>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 22V14L22 18L16 22Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.4185 11C16.2317 8.06817 13.3574 6 10 6C5.58172 6 2 9.58172 2 14C2 18.4183 5.58172 22 10 22C10.6906 22 11.3608 21.9125 12 21.748" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 6V4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 2H8V3H12V2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 8L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 6L18 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 13V9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

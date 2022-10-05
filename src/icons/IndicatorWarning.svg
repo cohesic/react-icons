@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <g class="Name=IndicatorWarning">
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M12.512 16.5v1m0-4v-8m-1.53-3.01-8.11 15.48c-.61 1.17.23 2.56 1.55 2.56h16.22c1.32 0 2.16-1.4 1.55-2.56l-8.11-15.48c-.66-1.25-2.45-1.25-3.1 0Z" class="icon-primary-stroke"/>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 16V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 13V8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5 3.9375L2.45 18.44C1.84 19.61 2.68 21 4 21H20C21.32 21 22.16 19.6 21.55 18.44L13.6 3.9375C12.94 2.6875 11.15 2.6875 10.5 3.9375Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

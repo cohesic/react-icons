@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <g class="Name=PanelRightContract">
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M2.5 20.5h18.88v-18H2.5v18Zm12-9h-12" class="icon-primary-stroke"/>
-    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m11.5 14.5 3-3-3-3" class="icon-primary-stroke"/>
-    <path stroke="#fff" stroke-dasharray="2 2" stroke-linecap="round" stroke-linejoin="round" d="M16.5 2.5v18" class="icon-primary-stroke"/>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 3H21V21H3V3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12H3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 9L13 12L10 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.5 4V20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 4"/>
 </svg>
