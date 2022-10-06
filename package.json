@@ -1,23 +1,30 @@
 {
   "name": "@cohesic/react-icons",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "React icons for the Cohesic suite of products.",
+  "license": "MIT",
   "keywords": [
     "react",
     "icon",
     "cohesic"
   ],
-  "type": "module",
-  "scripts": {
-    "build": "rimraf ./dist && ts-node ./scripts/build/main.ts",
-    "figma": "ts-node ./scripts/figma/main.ts"
-  },
   "author": {
     "name": "Paul Coyle",
     "email": "paul.coyle@cohesic.com",
     "url": "https://cohesic.com"
   },
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cohesic/react-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cohesic/react-icons.git"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "rimraf ./dist && ts-node ./scripts/build/main.ts",
+    "figma": "ts-node ./scripts/figma/main.ts"
+  },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/cheerio": "^0.22.31",
