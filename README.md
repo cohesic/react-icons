@@ -2,6 +2,10 @@
 
 React icons for the Cohesic suite of products.
 
+🔎 **[Preview the Icons Here](https://cohesic.github.io/react-icons/)**
+
+📦 **[npm Package](https://www.npmjs.com/package/@cohesic/react-icons)**
+
 ## Installation & Use
 
 ```bash

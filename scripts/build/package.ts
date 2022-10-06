@@ -6,6 +6,7 @@ export async function writePackageJson(sourcePath: string, destPath: string) {
 
   delete originalPackage['devDependencies']
   delete originalPackage['scripts']
+  delete originalPackage['workspaces']
 
   originalPackage['type'] = 'module'
   originalPackage['exports'] = {

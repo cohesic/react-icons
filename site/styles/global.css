@@ -1,9 +1,82 @@
+:root {
+  --pal-0-00: #000000;
+  --pal-0-01: #16171a;
+  --pal-0-02: #2b2e33;
+  --pal-0-03: #41444d;
+  --pal-0-04: #565b66;
+  --pal-0-05: #6c7280;
+  --pal-0-06: #888e9b;
+  --pal-0-07: #a6aab4;
+  --pal-0-08: #c4c6cd;
+  --pal-0-09: #e1e3e6;
+  --pal-0-10: #ffffff;
+
+  --pal-1-00: #000000;
+  --pal-1-01: #230c1a;
+  --pal-1-02: #461935;
+  --pal-1-03: #69254f;
+  --pal-1-04: #8c326a;
+  --pal-1-05: #af3e84;
+  --pal-1-06: #c65e9e;
+  --pal-1-07: #d486b6;
+  --pal-1-08: #e2aecf;
+  --pal-1-09: #f1d7e7;
+  --pal-1-10: #ffffff;
+
+  --pal-2-00: #000000;
+  --pal-2-01: #0e1320;
+  --pal-2-02: #1c2641;
+  --pal-2-03: #2a3a61;
+  --pal-2-04: #384d82;
+  --pal-2-05: #4660a2;
+  --pal-2-06: #647dbc;
+  --pal-2-07: #8b9dcd;
+  --pal-2-08: #b1bedd;
+  --pal-2-09: #d8deee;
+  --pal-2-10: #ffffff;
+}
+
 html,
 body {
-  background: #ccd;
-  color: #222;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1;
+  background-color: var(--pal-2-01);
+  box-sizing: border-box;
+  color: var(--pal-2-10);
+}
+
+h1 {
+  color: var(--pal-1-08);
+  text-align: center;
+}
+h2 {
+  color: var(--pal-2-08);
+  border-bottom: 2px solid var(--pal-2-03);
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+a,
+a:link {
+  color: var(--pal-1-07);
+}
+a:hover,
+a:active {
+  color: var(--pal-1-09);
+}
+a:visited {
+  color: var(--pal-2-07);
+}
+a:visited:hover {
+  color: var(--pal-2-09);
+}
+
+.ext-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .page {
@@ -16,34 +89,43 @@ body {
 }
 
 .icon-group-icons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 1rem;
 }
 
-.icon {
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 5rem;
   position: relative;
   cursor: pointer;
-  padding: 0.5rem;
+  overflow: hidden;
+  background-color: var(--pal-2-00);
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
 }
 
-.icon-proper {
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 .icon-name {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  display: none;
-  padding: 0.5rem;
-  background: #444;
+  font-size: 0.7rem;
   z-index: 10;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: var(--pal-2-02);
 }
 
-.icon:hover {
-  background: #444;
+.icon-container:hover {
+  background-color: var(--pal-1-01);
+  border-color: var(--pal-1-05);
 }
-
-.icon:hover .icon-name {
-  display: block;
+.icon-container:hover .icon-name {
+  background-color: var(--pal-1-02);
 }
