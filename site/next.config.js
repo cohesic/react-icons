@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: 'react-icons',
+  basePath: '/react-icons',
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
