@@ -3,6 +3,9 @@
   "version": "1.3.0",
   "description": "React icons for the Cohesic suite of products.",
   "license": "MIT",
+  "workspaces": [
+    "site"
+  ],
   "keywords": [
     "react",
     "icon",
@@ -22,24 +25,26 @@
   },
   "type": "module",
   "scripts": {
-    "build": "rimraf ./dist && ts-node ./scripts/build/main.ts",
+    "build": "npm run build:library && npm run build:site",
+    "build:library": "rimraf ./dist && ts-node ./scripts/build/main.ts",
+    "build:site": "npm run build --prefix site && npm run export --prefix site",
     "figma": "ts-node ./scripts/figma/main.ts"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.3",
-    "@types/cheerio": "^0.22.31",
-    "@types/glob": "^8.0.0",
-    "@types/react": "^18.0.21",
-    "@types/svgo": "^2.6.4",
-    "camelcase": "^7.0.0",
-    "cheerio": "^1.0.0-rc.12",
-    "glob": "^8.0.3",
-    "react": "^18.2.0",
-    "rimraf": "^3.0.2",
-    "svgo": "^2.8.0",
-    "ts-node": "^10.9.1",
-    "tsup": "^6.2.3",
-    "typescript": "^4.8.4"
+    "@tsconfig/node16": "1.0.3",
+    "@types/cheerio": "0.22.31",
+    "@types/glob": "8.0.0",
+    "@types/react": "18.0.21",
+    "@types/svgo": "2.6.4",
+    "camelcase": "7.0.0",
+    "cheerio": "1.0.0-rc.12",
+    "glob": "8.0.3",
+    "react": "18.2.0",
+    "rimraf": "3.0.2",
+    "svgo": "2.8.0",
+    "ts-node": "10.9.1",
+    "tsup": "6.2.3",
+    "typescript": "4.8.4"
   },
   "peerDependencies": {
     "react": "*"

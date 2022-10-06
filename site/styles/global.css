@@ -1,0 +1,49 @@
+html,
+body {
+  background: #ccd;
+  color: #222;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.page {
+  max-width: 30rem;
+  margin: 0 auto;
+  margin-bottom: 30rem;
+}
+
+.icon-group {
+}
+
+.icon-group-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.icon {
+  position: relative;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.icon-proper {
+}
+
+.icon-name {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  display: none;
+  padding: 0.5rem;
+  background: #444;
+  z-index: 10;
+}
+
+.icon:hover {
+  background: #444;
+}
+
+.icon:hover .icon-name {
+  display: block;
+}
